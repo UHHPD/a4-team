@@ -34,7 +34,7 @@ int main() {
     double pi = 4.0 * numCircle / N;
     cout << "π:\t" << pi << endl;
     double sigma = 4 * sqrt(p*(1-p)*N)/N;
-    cout << "σ:\t" << sigma << endl << endl;
+    cout << "σ:\t" << sigma << endl;
 
     a = 205;
     c = 39573;
@@ -54,6 +54,6 @@ int main() {
     pi = 4.0 * numCircle / N;
     cout << "π:\t" << pi << endl;
     sigma = 4 * sqrt(p*(1-p)*N)/N;
-    cout << "σ:\t" << sigma << endl << endl;
+    cout << "σ:\t" << sigma << endl;
   }
 }
